@@ -103,7 +103,7 @@ export default function Dashboard() {
     (async () => {
       try {
         const res = await axios.get(
-          `${serverDomain}/project/projectList?page=1&limit=50`,
+          `${serverDomain}/project/projectList?page=1&limit=100`,
           {
             headers: {
               Authorization: authToken,
